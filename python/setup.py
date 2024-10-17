@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name='dictum-proto',
     version="0.6.0-alpha.2",
-    packages=find_packages(include=["dictum_proto", "dictum_proto.*"]),
+    packages=find_packages(include=["python/dictum_proto", "python/dictum_proto.*"]),
     install_requires=[
         'protobuf==5.28.2',
         'grpcio==1.67.0',
